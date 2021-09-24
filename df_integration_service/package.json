@@ -1,0 +1,21 @@
+{
+  "name": "gmail-df-integration-service",
+  "version": "1.0.0",
+  "description": "A Node.js application that integrates Dialogflow CX with the Gmail API.",
+  "private": true,
+  "dependencies": {
+    "@google-cloud/automl": "^2.4.5",
+    "@google-cloud/datastore": "^6.4.1",
+    "@google-cloud/dialogflow-cx": "^2.9.0",
+    "@google-cloud/language": "^4.2.9",
+    "googleapis": "^76.0.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=6.4.0"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "license": "Apache-2.0"
+}
